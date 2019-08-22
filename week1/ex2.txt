@@ -1,0 +1,16 @@
+  124  man man
+  125  ls
+  126  cd ~/week1
+  127  ls
+  128  cat ex1.txt
+  129  cd ~
+  130  which gcc
+  131  ls /usr/bin | less
+  132  ls /usr/bin | grep "gcc" | less
+  133  ls /usr/bin | grep "gcc" | less
+  134  ls /usr/bin | grep "gcc" > ~/week1/ex1.txt
+  135  cat ~/week1/ex1.txt
+  136  ls /usr/bin -r | grep "gcc" | less 
+  137  ls /usr/bin | grep "gcc" |sort -r | less 
+  138  ls /usr/bin | grep "gcc" |sort -r > ~/week1/ex1.txt
+  139  cat ~/week1/ex1.txt
