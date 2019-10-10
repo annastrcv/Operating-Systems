@@ -1,0 +1,4 @@
+Difference between physical and virtual address
+Not all pages of a program have to be in physical memory at the same time.
+So when the piece of memory that is not on the physical memory needed,the 
+MMU "finds" virtual address in the virtual memory and maps it to physical address.
