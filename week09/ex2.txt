@@ -1,0 +1,8 @@
+Increased Hit/Miss ratio
+    It should have as many hits as possible
+    The example of such sequence:
+    1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+Decreased Hit/Miss ratio
+    It should have as many misses as possible
+    The example of such sequence:
+    1 2 3 4 5 6 7 8 9 10 11 12 13 14  
