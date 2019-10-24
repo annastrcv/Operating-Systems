@@ -1,0 +1,9 @@
+touch ../week01/file.txt
+
+ln ../week01/file.txt _ex2.txt
+
+find .. -inum $(ls -i ../week01/file.txt | cut -f1 -d' ') 
+../week01/file.txt
+../week10/_ex2.txt
+
+find ../week01 -inum $(ls -i ../week01/file.txt | cut -f1 -d' ') -exec rm {} \;

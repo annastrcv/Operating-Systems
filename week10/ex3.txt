@@ -1,0 +1,44 @@
+❯chmod a-x _ex3.txt
+
+❯ ls -la            
+total 0
+drwxr-xr-x   4 macbook  staff   128 Oct 24 22:22 .
+drwxr-xr-x  83 macbook  staff  2656 Oct 24 22:22 ..
+-rw-r--r--   1 macbook  staff     0 Oct 24 21:34 _ex2.txt
+-rw-r--r--   1 macbook  staff     0 Oct 24 22:17 _ex3.txt
+
+❯ chmod u+rwx _ex3.txt
+
+❯ ls -la
+total 0
+drwxr-xr-x   4 macbook  staff   128 Oct 24 22:22 .
+drwxr-xr-x  83 macbook  staff  2656 Oct 24 22:22 ..
+-rw-r--r--   1 macbook  staff     0 Oct 24 21:34 _ex2.txt
+-rwxr--r--   1 macbook  staff     0 Oct 24 22:17 _ex3.txt
+
+❯ chmod o+rwx _ex3.txt
+
+❯ ls -la
+total 0
+drwxr-xr-x   4 macbook  staff   128 Oct 24 22:22 .
+drwxr-xr-x  83 macbook  staff  2656 Oct 24 22:22 ..
+-rw-r--r--   1 macbook  staff     0 Oct 24 21:34 _ex2.txt
+-rwxr--rwx   1 macbook  staff     0 Oct 24 22:17 _ex3.txt
+
+❯ chmod g=u _ex3.txt
+
+❯ ls -la
+total 0
+drwxr-xr-x   4 macbook  staff   128 Oct 24 22:22 .
+drwxr-xr-x  84 macbook  staff  2688 Oct 24 22:32 ..
+-rw-r--r--   1 macbook  staff     0 Oct 24 21:34 _ex2.txt
+-rwxrwxrwx   1 macbook  staff     0 Oct 24 22:17 _ex3.txt
+
+If the command chmod gets the octal numbers 660,775,777 it transforms the digits
+ into  binary, and ones correspond to set bits of permissions
+– What does 660 mean for ex3.txt?
+110 110 000 corresponds to rw- rw- ---
+– What does 775 mean for ex3.txt?
+111 111 101 corresponds to rwx rwx r-x
+– What does 777 mean for ex3.txt? 
+111 111 111 corresponds to rwx rwx rwx
