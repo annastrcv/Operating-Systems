@@ -1,0 +1,6 @@
+Program 1
+buffer didn't manage to clear, so the created procces,
+first printed the line from the buffer then a new line
+Program 2
+//buffer was flushed, because of the symbol of the end of the line
+//so the output is one string "Hello" and two new lines
